@@ -3,7 +3,7 @@ const featuredSpeakers = document.querySelector('.speakers');
 const speakerInfo = [
   {
     name: 'Betsy Nunoo',
-    image: './assets/images/betsy.jfif',
+    image: './assets/images/ceo.jpg',
     profession: 'CEO of Hackfiery, Studies Computer science at Turkey Institute of Computer science',
     about: 'Betsy Nunoo, is currently doing her Masters in computer science. She publised papers on the use of quantum computers to solve immigration problems',
   },
@@ -12,6 +12,24 @@ const speakerInfo = [
     image: './assets/images/paul.jpg',
     profession: 'Co-founder of Hackfiery, owns a coding hub that trains youth in cloud services',
     about: 'Paul Kofi, osei, is currently doing his PhD in cloud computing. He is the author of cloud computing now!. The bestseller of New york times',
+  },
+  {
+    name: 'Jayden Brown',
+    image: './assets/images/jayden.jpg',
+    profession: 'CTO of Hackfiery, open-source developer',
+    about: 'Jayden Brown, owns and maintains an open source library known as jscript. He is a publisher and author of several books on programming',
+  },
+  {
+    name: 'Paul Kofi Osei',
+    image: './assets/images/paul.jpg',
+    profession: 'Co-founder of Hackfiery, owns a coding hub that trains youth in cloud services',
+    about: 'Paul Kofi, osei, is currently doing his PhD in cloud computing. He is the author of cloud computing now!. The bestseller of New york times',
+  },
+  {
+    name: 'Jayden Brown',
+    image: './assets/images/jayden.jpg',
+    profession: 'CTO of Hackfiery, open-source developer',
+    about: 'Jayden Brown, owns and maintains an open source library known as jscript. He is a publisher and author of several books on programming',
   },
   {
     name: 'Jayden Brown',
@@ -76,6 +94,14 @@ function aboutSpeaker(data) {
   return p;
 }
 
+function moreButton() {
+  const button = document.createElement('button');
+  button.innerHTML = 'More <i class="bi bi-chevron-down button-icon"></i>';
+  button.className = 'more-button';
+
+  return button;
+}
+
 function createSpeaker(data) {
   const speakersCard = document.createElement('div');
   const speakerCardTextContent = document.createElement('div');
@@ -94,7 +120,8 @@ function createSpeaker(data) {
   return speakersCard;
 }
 
-featuredSpeakersContainer.append(featuredSectionTitle(), horizontalLine(), featuredSpeakers);
+featuredSpeakersContainer
+  .append(featuredSectionTitle(), horizontalLine(), featuredSpeakers, moreButton());
 
 for (let i = 0; i < speakerInfo.length; i += 1) {
   const data = speakerInfo[i];

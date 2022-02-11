@@ -1,7 +1,7 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -15,188 +15,235 @@
 }
 
 .navbar-parent {
-    box-shadow: 2px 2px 10px gray;
+  box-shadow: 2px 2px 10px gray;
 }
 
 .toggler {
-    color: orangered;
-    outline: none !important;
-    border: 1px solid yellowgreen !important;
+  color: orangered;
+  outline: none !important;
+  border: 1px solid yellowgreen !important;
 }
 
-.toggler:hover{
-    box-shadow: 1px 1px 5px rgb(243, 145, 109);
+.toggler:hover {
+  box-shadow: 1px 1px 5px rgb(243, 145, 109);
 }
-
 
 .headline {
-    font-family: Raleway, sans-serif;
-    padding: 10px;
-    margin: 60px 0px;
+  font-family: Raleway, sans-serif;
+  padding: 10px;
+  margin: 60px 0px;
 }
 
 .headline h1 {
-    font-size: 35px;
-    font-weight: 500;
+  font-size: 35px;
+  font-weight: 500;
 }
 
 .headline h2 {
-    font-size: 40px;
-    font-weight: 700;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .message {
-    font-size: 22px;
-    border: 7px solid white;
-    background-color: rgb(236, 235, 235);
-    padding: 5px;
-    font-weight: 500;
+  font-size: 22px;
+  border: 7px solid white;
+  background-color: rgb(236, 235, 235);
+  padding: 5px;
+  font-weight: 500;
 }
 
 .date {
-    font-size: larger;
-    font-weight: 700;
+  font-size: larger;
+  font-weight: 700;
 }
 
 .location {
-    font-weight: 400;
-    font-size: 22px;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 .programs {
-    background-color:rgb(4, 34, 4);
-    min-height: 30vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: rgb(4, 34, 4);
+  min-height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .programs-section-title {
-    color: white;
-    margin-top: 40px;
-    font-family: Raleway, sans-serif;
-    font-size: 30px;
+  color: white;
+  margin-top: 40px;
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
 }
 
 .programs-line {
-    width: 30vw;
-    border: 3px solid rgb(243, 102, 21);
-    text-align: center;
+  width: 30vw;
+  border: 3px solid rgb(243, 102, 21);
+  text-align: center;
 }
 
 .programs-container {
-  margin: 50px;   
+  margin: 50px;
 }
 
 .program-card {
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .program-card > * {
-    margin: 10px;
+  margin: 10px;
 }
 
 .join-button {
-    padding: 20px;
-    outline: none;
-    border: none;
-    margin-bottom: 20px;
-    background-color: rgb(170, 170, 13);
-    color: white;
+  padding: 20px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  background-color: rgb(170, 170, 13);
+  color: white;
 }
 
 .speakers-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .speakers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .speakers-section-title {
-    margin-top: 40px;
-    font-family: Raleway, sans-serif;
-    font-size: 30px;
+  margin-top: 40px;
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
 }
 
 .speakers-line {
-    width: 30vw;
-    border: 3px solid rgba(19, 56, 2, 0.993);
-    text-align: center;
+  width: 30vw;
+  border: 3px solid rgba(19, 56, 2, 0.993);
 }
 
 .speakers-card {
-  padding: 10px;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 .speaker-image {
-    border-radius: 10px;
-    margin-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .speaker-card-text-content {
-    text-align: center;
-    font-family: Raleway, sans-serif;
+  text-align: center;
+  font-family: Raleway, sans-serif;
 }
 
 .speaker-name {
-    font-size: 30px;
-    color: rgb(37, 48, 37);
-    font-weight: 600;
+  font-size: 30px;
+  color: rgb(37, 48, 37);
+  font-weight: 600;
 }
 
 .speaker-profession {
-    color: rgb(38, 126, 28);
-    font-weight: 700;
-    font-size: 18px;
+  color: rgb(38, 126, 28);
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .speaker-content-line {
-    width: 30vw;
-    border: 3px solid rgba(19, 56, 2, 0.993);
-    margin-right: auto;
-    margin-left: auto;
+  width: 30vw;
+  border: 3px solid rgba(19, 56, 2, 0.993);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about-speaker {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-@media screen and (max-width:500px ) {
-    .program-card {
-        flex-wrap: wrap;
-        text-align: center;
-    }
+.more-button {
+  width: 80vw;
+  padding: 30px;
+  border: 1px solid black;
+  margin: 10px;
+  font-size: 25px;
+  color: rgb(3, 48, 3);
+  font-weight: 500;
+}
 
-    .program-card > * {
-      flex: 1 1 200px;
-    }
+.button-icon {
+  color: orangered;
+  zoom: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .program-card {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .program-card > * {
+    flex: 1 1 200px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .programs-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .programs-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .program-card {
-        flex-direction: column;
-        margin: 10px;
-        flex: 1 1 100px;
-    }
+  .program-card {
+    flex-direction: column;
+    margin: 10px;
+    flex: 1 1 100px;
+  }
+
+  .speakers {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .speakers-card {
+    display: flex;
+    flex: 1 1 550px;
+  }
+
+  .speaker-image {
+    height: 200px;
+  }
+
+  .speaker-card-text-content {
+    text-align: start;
+    margin: 10px;
+  }
+
+  .more-button {
+    display: none;
+  }
+
+  .speaker-content-line {
+    max-width: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    border: 2px solid rgba(19, 56, 2, 0.993);
+  }
+
+  .speakers-line {
+    width: 10vw;
+    border: 3px solid rgba(204, 79, 6, 0.993);
+  }
 }
-
-
