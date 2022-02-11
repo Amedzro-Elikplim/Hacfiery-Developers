@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body {
-    background-color: rgb(238, 235, 235);
-}
-
 .logo {
   zoom: 2;
   color: black;
@@ -32,11 +28,11 @@ body {
     box-shadow: 1px 1px 5px rgb(243, 145, 109);
 }
 
+
 .headline {
     font-family: Raleway, sans-serif;
     padding: 10px;
     margin: 60px 0px;
-    /* min-height: 30vh; */
 }
 
 .headline h1 {
@@ -52,7 +48,7 @@ body {
 .message {
     font-size: 22px;
     border: 7px solid white;
-    background-color: rgb(218, 214, 214);
+    background-color: rgb(236, 235, 235);
     padding: 5px;
     font-weight: 500;
 }
@@ -84,9 +80,9 @@ body {
     font-size: 30px;
 }
 
-.line {
+.programs-line {
     width: 30vw;
-    border: 3px solid rgb(228, 243, 21);
+    border: 3px solid rgb(243, 102, 21);
     text-align: center;
 }
 
@@ -101,7 +97,6 @@ body {
     margin-bottom: 10px;
     justify-content: space-evenly;
     align-items: center;
-    
 }
 
 .program-card > * {
@@ -115,6 +110,62 @@ body {
     margin-bottom: 20px;
     background-color: rgb(170, 170, 13);
     color: white;
+}
+
+.speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakers-section-title {
+    margin-top: 40px;
+    font-family: Raleway, sans-serif;
+    font-size: 30px;
+}
+
+.speakers-line {
+    width: 30vw;
+    border: 3px solid rgba(19, 56, 2, 0.993);
+    text-align: center;
+}
+
+.speakers-card {
+  padding: 10px;
+}
+
+.speaker-image {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.speaker-card-text-content {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+.speaker-name {
+    font-size: 30px;
+    color: rgb(37, 48, 37);
+    font-weight: 600;
+}
+
+.speaker-profession {
+    color: rgb(38, 126, 28);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.speaker-content-line {
+    width: 30vw;
+    border: 3px solid rgba(19, 56, 2, 0.993);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-speaker {
+    font-weight: 600;
 }
 
 @media screen and (max-width:500px ) {
