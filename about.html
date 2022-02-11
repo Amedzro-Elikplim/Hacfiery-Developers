@@ -1,12 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -15,10 +16,9 @@
       as="style"
       onload="this.onload = null; this.rel = 'stylesheet'" 
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;700;800&display=swap">
-    <title>About Page</title>
+    <title>Hackfiery Conference</title>
 </head>
 <body>
-    
     <!--header-->
    <header>
        <div class="nav-top">
@@ -32,7 +32,7 @@
        </div>
         <nav class="navbar navbar-expand-md navbar-parent sticky-top">
             <div class="container-fluid">
-             <a href="index.html" class="navbar-brand mt-0">
+             <a href="./index.html" class="navbar-brand mt-0">
                   <img src="./assets/images/logo.png" alt="logo" width="60px" height="50x" class="img-fluid">
              </a> 
               <button type="button" class="navbar-toggler toggler" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#navbarID">
@@ -42,7 +42,7 @@
               <div class="collapse navbar-collapse navlinks-container" id="navbarID">
                   <ul class="navbar-nav mb-lg-0 ff">
                       <li class="nav-item me-lg-4" >
-                          <a href="about.html" class="nav-link clicked">About</a>
+                          <a href="./about.html" class="nav-link">About</a>
                       </li>
                       <li class="nav-item me-lg-4">
                           <a href="" class="nav-link">Program</a>
@@ -65,5 +65,39 @@
         </nav>
    </header>
    <!--header ends here-->
+
+   <!--headline section-->
+   <section class="container">
+     <div class="about-headline">
+           <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">"Hello! Hackfierist"</h1>
+           <h2 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1300"  class="ms-md-2">HACKFIERY DEVELOPERS GLOBAL SUMMIT 2022</h2>
+           <p  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1100" class="ms-md-2 about-message">
+               Hackfiery is a tech company based in Ghana. We provide a range of services such as web development, web hosting, cloud services and consultancy 
+           </p>
+     </div>
+   </section>
+<!--headline section ends here-->
+
+    <section class="container contact-section">
+      <p>Please contact us via email for any further questions about Hackfiery Summit 2020</p>
+      <a href="#">hackfiery.org.gh</a>
+    </section>
+
+
+    <section class="container logo-section ">
+         <h2>Hacfiery Developers Global Summit 2022 logo</h2>
+         <hr class="about-hr-line">
+         <p>The logo of Hacfiery Developers Global Summit was decided through the logo competition from 3 January to 5 January</p>
+    </section>
+
+    <section class="container">
+       <img src="./assets/images/logo.png" alt="logo" class="img-fluid image">
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
