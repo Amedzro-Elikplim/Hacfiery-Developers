@@ -24,6 +24,7 @@
   width: 100%;
   height: 30px;
   background-color: black;
+  display: none;
 }
 
 .nav-top-content {
@@ -254,7 +255,11 @@
   }
 
   .campaign-link {
-      width: 120px
+    width: 120px;
+  }
+
+  .nav-top {
+    display: block;
   }
 
   .nav-link {
