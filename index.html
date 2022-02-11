@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="preload"
       as="style"
@@ -18,6 +19,15 @@
 <body>
     <!--header-->
    <header>
+       <div class="nav-top">
+           <ul class="nav-top-content">
+               <li><i class="bi bi-facebook"></i></li>
+               <li><i class="bi bi-twitter"></i></li>
+               <li>English</li>
+               <li>My page</li>
+               <li>Logout</li>
+           </ul>
+       </div>
         <nav class="navbar navbar-expand-md navbar-parent sticky-top">
             <div class="container-fluid">
              <a href="#" class="navbar-brand mt-0">
@@ -28,7 +38,7 @@
               </button>
 
               <div class="collapse navbar-collapse navlinks-container" id="navbarID">
-                  <ul class="navbar-nav mb-lg-0">
+                  <ul class="navbar-nav mb-lg-0 ff">
                       <li class="nav-item me-lg-4" >
                           <a href="" class="nav-link active">About</a>
                       </li>
@@ -45,7 +55,7 @@
                           <a href="" class="nav-link">News</a>
                       </li>
                       <li class="nav-item me-lg-4">
-                          <a href="" class="nav-link">CC Campaign</a>
+                          <a href="" class="nav-link campaign-link ">Hf Campaign</a>
                       </li>
                   </ul>
               </div>
@@ -57,14 +67,14 @@
    <!--headline section-->
    <section class="container">
        <div class="headline">
-           <h1>"Hello! Hackfierist"</h1>
-           <h2 class="ms-md-2">HACKFIERY DEVELOPERS GLOBAL SUMMIT 2022</h2>
-           <p class="ms-md-2 message">Its time for the hackfiery community to gather again!. We are excited to 
+           <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">"Hello! Hackfierist"</h1>
+           <h2 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1300"  class="ms-md-2">HACKFIERY DEVELOPERS GLOBAL SUMMIT 2022</h2>
+           <p  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1100" class="ms-md-2 message">Its time for the hackfiery community to gather again!. We are excited to 
                annouce our 2022 summit which will be held all around the globe in June.
                Come and enrich your skills as a developer.
            </p>
-           <h2 class="ms-md-2 date">2022.10.06(WED) ~ 10(THU)</h2>
-           <p class="ms-md-2 location">@Accra Internation Conference Center, Ghana</p>
+           <h2  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="900" class="ms-md-2 date">2022.10.06(WED) ~ 10(THU)</h2>
+           <p  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800" class="ms-md-2 location">@Accra Internation Conference Center, Ghana</p>
        </div>
    </section> 
    <!--headline section ends here-->
@@ -75,40 +85,36 @@
       <hr class="programs-line">
 
       <div class="programs-container">
-          <div class="program-card">
-             <i class="bi bi-folder-symlink"></i>
-             <h3>DEVELOPERS</h3>
-             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem unde sapiente optio provident magnam, quam tempore labore?</p>
+          <div class="program-card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+             <i class="bi bi-person-fill program-icon"></i>
+             <h3>LECTURES</h3>
+             <p class="program-description">Listen to the speakers from various countries about the new cool technologies in 2022, usage, maintainance and the next big things to expect in the beyond future</p>
           </div>
-          <div class="program-card">
-             <i class="bi bi-folder-symlink"></i>
-             <h3>DEVELOPERS</h3>
-             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem unde sapiente optio provident magnam, quam tempore labore?</p>
+          <div class="program-card"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <i class="bi bi-basket-fill program-icon "></i>
+             <h3>EXHIBITION</h3>
+             <p class="program-description">Walk the talk, don't just talk the talk. Exhibit your creations using our virtual reality platform vit. Receive feedback, grow and build up to become a better developer</p>
           </div>
-          <div class="program-card">
-             <i class="bi bi-folder-symlink"></i>
-             <h3>DEVELOPERS</h3>
-             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem unde sapiente optio provident magnam, quam tempore labore?</p>
+          <div class="program-card"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+             <i class="bi bi-chat-dots-fill program-icon"></i>
+             <h3>FORUM</h3>
+             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem</p>
           </div>
-          <div class="program-card">
-             <i class="bi bi-folder-symlink"></i>
-             <h3>DEVELOPERS</h3>
-             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem unde sapiente optio provident magnam, quam tempore labore?</p>
+          <div class="program-card"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+             <i class="bi bi-person-workspace program-icon"></i>
+             <h3>WORKSHOP</h3>
+             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem</p>
           </div>
-          <div class="program-card">
-             <i class="bi bi-folder-symlink"></i>
-             <h3>DEVELOPERS</h3>
-             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem unde sapiente optio provident magnam, quam tempore labore?</p>
-          </div>
-          <div class="program-card">
-             <i class="bi bi-folder-symlink"></i>
-             <h3>DEVELOPERS</h3>
-             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem unde sapiente optio provident magnam, quam tempore labore?</p>
+          <div class="program-card"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+             <i class="bi bi-pc-display-horizontal program-icon"></i>
+             <h3>HACKATHON</h3>
+             <p class="program-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias blanditiis sed omnis excepturi, beatae enim error soluta repellendus animi libero quidem</p>
           </div>
           
       </div>
 
       <button class="join-button">Join Hackfiery Developers Summit</button>
+      <a href="#" class="whole-program-button">See the whole program</a>
    </section>
    <!--programs section ends here-->
 
@@ -119,7 +125,10 @@
       </div>
    </section>
    <!--featured speakers ends here-->
-
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
     <script defer src="main.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
