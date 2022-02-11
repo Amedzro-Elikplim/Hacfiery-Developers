@@ -112,6 +112,13 @@
     color: white;
 }
 
+.speakers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .speakers {
     display: flex;
     flex-direction: column;
