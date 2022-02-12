@@ -40,7 +40,9 @@
 
 .logo-section {
   text-align: center;
+  padding: 30px;
   margin-top: 60px;
+  background-color: rgba(202, 195, 195, 0.315);
 }
 
 .logo-section h2 {
@@ -48,18 +50,174 @@
   font-weight: 700;
 }
 
+.logo-message {
+  display: none;
+}
+
 .about-hr-line {
-    border: 3px solid rgb(4, 48, 4);
-    width: 10vw;
-    margin-left: auto;
-    margin-right: auto;
+  border: 3px solid rgb(4, 48, 4);
+  width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-section p {
-    font-size: 20px;
-    font-weight: 400;
-    padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
 }
 
+.history-section {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-section h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.history-section p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.history-card {
+  width: 90vw;
+  min-height: 300px;
+  background: url("../assets/images/history.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 10px;
+}
+
+.history-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  min-height: 300px;
+  color: white;
+  background-color: rgba(2, 99, 2, 0.479);
+}
+
+.history-content h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.history-content p {
+  font-size: 25px;
+}
+
+.partners-section {
+  min-height: 40vh;
+  background-color: rgba(2, 29, 2, 0.582);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-section h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: rgb(2, 37, 2);
+  width: 100%;
+}
+
+.partners h3 {
+  font-size: 25px;
+  margin: 30px;
+  flex: 1 1 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  height: 15vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.footer div p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .about-headline h1 {
+    font-size: 50px;
+  }
+
+  .about-headline h2 {
+    font-size: 60px;
+  }
+
+  .about-message {
+    padding: 40px;
+  }
+
+  .logo-section {
+      margin-top: 50px;
+  }
+
+  .logo-section h2 {
+    font-size: 40px;
+  }
+
+  .logo-message {
+    display: block;
+  }
+
+  .image {
+      height: 300px;
+  }
 
 
+  .history-card-container {
+     display: flex;
+     /* flex-wrap: wrap; */
+  }
+
+  .history-card {
+      width: 40vw;
+  }
+
+  .partners-section {
+      height: 60vh;
+  }
+
+
+  .partners h3 {
+      font-size: 30px;
+  }
+}
