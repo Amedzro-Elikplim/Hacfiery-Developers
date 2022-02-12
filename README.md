@@ -21,6 +21,12 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://amedzro-elikplim.github.io/capstone-project-1/)
 
+[Live loom video linke](https://www.loom.com/share/da068a5966324e4bbee556365a6351dd)
+
+
+
+
+
 
 ## Getting Started
 
