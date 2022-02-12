@@ -187,7 +187,7 @@
   }
 
   .logo-section {
-      margin-top: 50px;
+    margin-top: 50px;
   }
 
   .logo-section h2 {
@@ -199,25 +199,28 @@
   }
 
   .image {
-      height: 300px;
+    height: 300px;
   }
 
-
   .history-card-container {
-     display: flex;
-     /* flex-wrap: wrap; */
+    display: flex;
   }
 
   .history-card {
-      width: 40vw;
+    width: 40vw;
   }
 
   .partners-section {
-      height: 60vh;
+    height: 60vh;
   }
 
-
   .partners h3 {
-      font-size: 30px;
+    font-size: 30px;
+  }
+
+  .footer {
+    background-color: black;
+    padding-top: 20px;
+    height: 20vh;
   }
 }
