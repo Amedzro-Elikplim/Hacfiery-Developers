@@ -19,7 +19,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://amedzro-elikplim.github.io/capstone-project-1/)
+[Live Demo Link](https://amedzro-elikplim.github.io/Hacfiery-Developers/)
 
 
 ## Getting Started
